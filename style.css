@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+}
+.fa-laptop-house{
+    font-size: 50px;
+    color: orangered;
+    margin-right: -85px;
+}
+.color-letter{
+    color: green;
+    }
+h1{
+    font-size: 45px;
+    color: orangered;
+}    
+
+a{
+    text-decoration: none;
+    color: green;
+    font-size: 18px;
+    font-weight: 700;
+}
+.top-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(rgb(228, 250, 228), rgb(252, 233, 226));
+    margin-bottom: 80px;
+}
+.top-section{
+    background-image: linear-gradient(#f6f6f6, #f6f6f6);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.top-blog{
+    width: 300px;    
+}
+.top-img{
+    width: 500px;
+}
+.middle-section{
+    background-image: linear-gradient(#f6f6f6, #f6f6f6);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.middle-blog{
+    width: 300px;    
+}
+.middle-img{
+    width: 500px;
+}
+
+.bottom-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.bottom-blog{
+    width: 300px;    
+}
+.bottom-img{
+    width: 500px;
+}
+button{
+    border: orangered;
+    border-radius: 20px;
+    color: white;
+    background-image: linear-gradient(orangered, green);
+    padding: 10px 25px;
+    font-size: 22px;
+}
+h2{
+    font-size: 30px;
+    color: green;
+}
+.contact-form{ 
+    background-image: linear-gradient(rgb(228, 250, 228), rgb(252, 233, 226));
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 50px;
+}
+h3{
+    color: orangered;
+    font-size: 25px;
+}
+.email-section{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.copyright-section{
+    text-align: center;
+    color: green;
+    background-image: linear-gradient(rgb(214, 252, 214), rgb(255, 221, 210));
+    padding: 35px 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
