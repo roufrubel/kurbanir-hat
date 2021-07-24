@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>কুরবানির হাট</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/9e5a623fa6.js" crossorigin="anonymous"></script>
     <!-- stylesheet -->
@@ -15,14 +18,14 @@
 <body>
     <!-- header -->
     <header>
-        <nav class="top-menu">
+        <nav class="top-menu fixed-top">
             <i class="fas fa-laptop-house"></i>
             <h1><span class="color-letter">কুরবানির</span> হাট</h1>
             <a href="">হোম</a>
             <a href="">দেশি গরু</a>
-            <a href="">বিদেশি গরু</a>
+            <a href="#বিদেশি গরু">বিদেশি গরু</a>
             <a href="">অর্ডার করুন</a>
-            <a href="">যোগাযোগ</a>
+            <a href="#যোগাযোগ">যোগাযোগ</a>
         </nav>
     </header>
     <!-- main items -->
@@ -46,7 +49,7 @@
                 <img class="middle-img" src="images/goru02.jpeg" alt="">
             </div>
             <div class="middle-blog">
-                <h2 class="middle-heading">বিদেশি গরু</h2>
+                <h2 id="বিদেশি গরু" class="middle-heading">বিদেশি গরু</h2>
                 <p>আসন্ন কোরবানি ঈদকে সামনে রেখে সারাদেশে কোরবানির পশুর হাটে দেশী গরুর পাশাপাশি বিদেশী গরুতে বাজার সয়লাব
                     হওয়া এবং লোকসানের আশঙ্কায় আছেন দেশের গরু ব্যবসায়ীরা।
 
@@ -71,15 +74,21 @@
         </section>
     </main>
     <!-- contact form -->
-    <section class="contact-form">
+    <section id="যোগাযোগ" class="contact-form">
         <div>
             <h3>আপডেটের জন্য সাথে থাকুন</h3>
+            <p>Phone: +8801627601999</p>
             <input class="email-section" type="text" placeholder="আপনার ইমেইল"> <br>
             <button class="bottom-submit">সাবমিট করুন</button>
         </div>
     </section>
     <!-- footer  -->
     <p class="copyright-section">Copyright © Rouf Rubel | KathPencil Marketing Solutions</p>
+
+    <!-- bootstrap js bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
